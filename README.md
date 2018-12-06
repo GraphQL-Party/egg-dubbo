@@ -1,6 +1,6 @@
 # egg-dubbo
 
-egg dubbo 插件, 目前仅仅作交流使用
+egg dubbo 插件, 宋小菜前端团队出品，仅作 NodeParty 会议交流使用
 
 ## 使用
 
@@ -17,7 +17,7 @@ exports.dubbo = {
 }
 ```
 
-* 使用[参考](https://github.com/GraphQL-Party/egg-dubbo/tree/master/test/fixtures/example)
+* 使用请[参考此处](./test/fixtures/example)
 
 ## egg config
 
@@ -39,6 +39,5 @@ exports.dubbo = {
 
 ## 关于插件的调用方式
 
-* 插件向外暴露出基础类 `DubboService` 以及 `DubboProvider`，继承/实例以上两者达到提供服务和调用服务的目的，这是方法之一。
-
-* 也可以参考 [egg loadController 源码](https://github.com/eggjs/egg-core/blob/master/lib/loader/mixin/controller.js) 以及 [egg loadService 源码](https://github.com/eggjs/egg-core/blob/master/lib/loader/mixin/service.js) 实现配置化加载
+* 插件向外暴露出基础类 `DubboService` 以及 `DubboProvider`，继承/实例以上两者达到提供服务和调用服务的目的。
+* 或参考 [egg loadController 源码](https://github.com/eggjs/egg-core/blob/master/lib/loader/mixin/controller.js) 以及 [egg loadService 源码](https://github.com/eggjs/egg-core/blob/master/lib/loader/mixin/service.js) 实现配置化加载
